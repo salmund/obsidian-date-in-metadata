@@ -1,7 +1,7 @@
 {
 	"name": "obsidian-date-in-metadata",
 	"version": "1.0.0",
-	"description": " Obsidian plugin allowing to insert the current date and time in YAML frontmatter on file creation",
+	"description": "Insert automatically the date in YAML frontmatter on file creation event.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
