@@ -20,3 +20,10 @@ Of course you can customize your frontmatter
 
 ![image](https://user-images.githubusercontent.com/105465034/168187197-8e6541a0-8547-4594-bf22-56fca6ae886b.png)
 
+
+## Plugin
+
+This plugin uses
+
+- [JS Yaml](https://github.com/nodeca/js-yaml)
+- [Front-matter](https://www.npmjs.com/package/front-matter)
