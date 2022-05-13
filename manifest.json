@@ -3,8 +3,8 @@
 	"name": "Date in metadata",
 	"version": "1.0.0",
 	"minAppVersion": "0.12.0",
-	"description": "Insert the date in YAML frontmatter on file creation.",
+	"description": "Insert automatically the date in YAML frontmatter on file creation event.",
 	"author": "Salmund",
-	"authorUrl": "https://obsidian.md",
+	"authorUrl": "https://github.com/salmund/obsidian-date-in-metadata",
 	"isDesktopOnly": false
 }
