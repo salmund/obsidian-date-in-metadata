@@ -27,3 +27,6 @@ This plugin uses
 
 - [JS Yaml](https://github.com/nodeca/js-yaml)
 - [Front-matter](https://www.npmjs.com/package/front-matter)
+
+## To do
+- [] make sure that the plugin can work directly after loading a vault (at the moment you have to wait a few seconds if you just launched obsidian, before creating a file so that the plugin can detect the file correctly)
