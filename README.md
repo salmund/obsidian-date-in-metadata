@@ -6,7 +6,7 @@
  
  - But how does it differ from using templates?
 
-Templates are cool when you want to create a new file with a keyboard shortcut, but when you create a new file from a markdown link, it doesn't work, and that's where my plugin comes in.
+Using templates to insert date and time is a solution when you want to create a new file with a keyboard shortcut, but when you create a new file from a markdown link, it doesn't work, and that's where my plugin comes in.
 
 ## Demo
 
