@@ -1,4 +1,4 @@
- # Insert date and time in metadata
+ # Insert date and time in metadata automatically on file creation event
  
  Obsidian plugin allowing to insert the current date and time in YAML frontmatter on file creation (which is otherwise not possible). 
  
