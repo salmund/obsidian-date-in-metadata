@@ -13,3 +13,10 @@ Templates are cool when you want to create a new file with a keyboard shortcut, 
 See how the date is inserted even after link-based-file-creation.
 
 ![moi](https://user-images.githubusercontent.com/105465034/168185897-17e87af8-9d33-4fc9-8164-04de5e1a8883.gif)
+
+## Settings
+
+Of course you can customize your frontmatter
+
+![image](https://user-images.githubusercontent.com/105465034/168187197-8e6541a0-8547-4594-bf22-56fca6ae886b.png)
+
