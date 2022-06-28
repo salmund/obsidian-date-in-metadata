@@ -5,18 +5,18 @@ import moment from 'moment'
 
 // Remember to rename these classes and interfaces!
 
-interface MyPluginSettings {
+interface dateInMetadataSettings {
 	defaultKey: string,
 	defaultFormat: string
 }
 
-const DEFAULT_SETTINGS: MyPluginSettings = {
+const DEFAULT_SETTINGS: dateInMetadataSettings = {
 	defaultKey: 'created',
 	defaultFormat: "DD/MM/YYYY HH:mm"
 }
 
-export default class dateInMetaPlugin extends Plugin {
-	settings: MyPluginSettings;
+export default class dateInMetadataSettings extends Plugin {
+	settings: dateInMetadataSettings;
 
 	async onload() {
 		await this.loadSettings();
@@ -61,7 +61,7 @@ export default class dateInMetaPlugin extends Plugin {
 
 
 		// This adds a settings tab so the user can configure various aspects of the plugin
-		this.addSettingTab(new SampleSettingTab(this.app, this));
+		this.addSettingTab(new dateInMetadataSettingsTab(this.app, this));
 
 		// If the plugin hooks up any global DOM events (on parts of the app that doesn't belong to this plugin)
 		// Using this function will automatically remove the event listener when this plugin is disabled.
@@ -86,7 +86,7 @@ export default class dateInMetaPlugin extends Plugin {
 	}
 }
 
-class SampleSettingTab extends PluginSettingTab {
+class dateInMetadataSettingsTab extends PluginSettingTab {
 	plugin: MyPlugin;
 
 	constructor(app: App, plugin: MyPlugin) {
