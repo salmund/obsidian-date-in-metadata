@@ -20,7 +20,7 @@ export default class dateInMetadataSettings extends Plugin {
 
 	async onload() {
 		await this.loadSettings();
-		var parametres = this.settings;
+		let parametres = this.settings;
 		this.registerEvent(this.app.vault.on("create", (created_file) => {
 			// important de mettre un timeout sinon la vue éditeur n'est pas détectée
 			setTimeout(function() {
@@ -28,7 +28,7 @@ export default class dateInMetadataSettings extends Plugin {
 				// on regarde si le nom du fichier qui a été créé correspond au nom du fichier de la vue active
 				// si c'est le cas, on continue, sinon on fait rien
 				const view = this.app.workspace.getActiveViewOfType(MarkdownView);
-				var active_file = this.app.workspace.getActiveFile();
+				let active_file = this.app.workspace.getActiveFile();
 				if ( (view) && (created_file.name == active_file.name) ) {
 					const key = parametres.defaultKey;
 					const default_format_moment = moment().format(parametres.defaultFormat);
@@ -47,14 +47,14 @@ export default class dateInMetadataSettings extends Plugin {
 						const body = text.split("\n").slice(end).join("\n")
 
 						const data = fronty(contenu_avant);
-						var frontmatter_data = data.attributes;
+						let frontmatter_data = data.attributes;
 						frontmatter_data = { ...frontmatter_data, [key]: default_format_moment };
 						active_editor.setValue('');
 						active_editor.replaceRange(body, cursor);
 						active_editor.replaceRange(`---\n${yaml.dump(frontmatter_data)}---\n`, cursor);
 					}
 				}
-			}, 100);
+			}, 250);
 		}
 		)
 		)
