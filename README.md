@@ -8,6 +8,10 @@
 
 Using templates to insert date and time is a solution when you want to create a new file with a keyboard shortcut, but when you create a new file from a markdown link, it doesn't work (assuming you don't use folders templates like me, because tags are more convenients than folders - that's another topic...), and that's where my plugin comes in.
 
+<a href="https://www.buymeacoffee.com/whiteeagleH" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+(donate only if you can afford it, just a little is already very stimulating ;))
+
 ## Demo
 
 See how the date is inserted even after link-based-file-creation.
