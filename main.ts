@@ -3,8 +3,6 @@ const fronty = require('front-matter');
 const yaml = require('js-yaml')
 import moment from 'moment'
 
-// Remember to rename these classes and interfaces!
-
 interface dateInMetadataSettings {
 	defaultKey: string,
 	defaultFormat: string
